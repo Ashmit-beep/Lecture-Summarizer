@@ -1,0 +1,77 @@
+# ====================
+#  macOS / general
+# ====================
+.DS_Store
+Thumbs.db
+
+# ====================
+#  Python
+# ====================
+# Virtual environments
+venv/
+ai-backend/venv/
+
+# Byte-compiled & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Env files
+*.env
+.venv/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pip
+pip-log.txt
+
+# ====================
+#  Node / React / React Native
+# ====================
+# node_modules for both mobile and web
+mobile-app/node_modules/
+web-ui/node_modules/
+
+# Expo (if you use it)
+.expo/
+.expo-shared/
+
+# React Native / Android build
+mobile-app/android/
+mobile-app/android/app/build/
+mobile-app/android/.gradle/
+
+# iOS / CocoaPods
+mobile-app/ios/Pods/
+mobile-app/ios/build/
+
+# React web build output
+web-ui/build/
+web-ui/.cache/
+
+# dotenv
+mobile-app/.env
+web-ui/.env
+
+# ====================
+#  IDEs & Editors
+# ====================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ====================
+#  Logs & Temporary
+# ====================
+*.log
+*.tmp
+*.swp
